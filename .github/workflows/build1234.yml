@@ -1,0 +1,46 @@
+##[debug]Starting: Set up job
+Current runner version: '2.335.1'
+Runner Image Provisioner
+Operating System
+Runner Image
+GITHUB_TOKEN Permissions
+Secret source: Actions
+##[debug]Primary repository: HarryStoye/Wand-Enhancer
+Prepare workflow directory
+##[debug]Creating pipeline directory: 'D:\a\Wand-Enhancer'
+##[debug]Creating workspace directory: 'D:\a\Wand-Enhancer\Wand-Enhancer'
+##[debug]Update context data
+##[debug]Evaluating job-level environment variables
+##[debug]Evaluating job container
+##[debug]Evaluating job service containers
+##[debug]Evaluating job defaults
+Prepare all required actions
+Getting action download info
+Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+##[debug]Copied action archive 'C:\actionarchivecache\actions_checkout\34e114876b0b11c390a56381ad16ebd13914f8d5.zip' to 'D:\a\_actions\_temp_572e88a8-0031-4dc6-bb53-e581440d89e8\23f8d44d-c929-4c59-add7-97700913ba98.zip'
+##[debug]Unwrap 'actions-checkout-34e1148' to 'D:\a\_actions\actions\checkout\v4'
+##[debug]Archive 'D:\a\_actions\_temp_572e88a8-0031-4dc6-bb53-e581440d89e8\23f8d44d-c929-4c59-add7-97700913ba98.zip' has been unzipped into 'D:\a\_actions\actions\checkout\v4'.
+Download action repository 'pnpm/action-setup@v4' (SHA:b906affcce14559ad1aafd4ab0e942779e9f58b1)
+##[debug]Download 'https://codeload.github.com/pnpm/action-setup/zip/b906affcce14559ad1aafd4ab0e942779e9f58b1' to 'D:\a\_actions\_temp_4c4b7f56-05a3-43ae-b6e3-194af8980557\29008d3d-df47-42ca-8aea-90c444c21d02.zip'
+##[debug]Unwrap 'action-setup-b906affcce14559ad1aafd4ab0e942779e9f58b1' to 'D:\a\_actions\pnpm\action-setup\v4'
+##[debug]Archive 'D:\a\_actions\_temp_4c4b7f56-05a3-43ae-b6e3-194af8980557\29008d3d-df47-42ca-8aea-90c444c21d02.zip' has been unzipped into 'D:\a\_actions\pnpm\action-setup\v4'.
+Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+##[debug]Copied action archive 'C:\actionarchivecache\actions_setup-node\49933ea5288caeca8642d1e84afbd3f7d6820020.zip' to 'D:\a\_actions\_temp_61383b56-58e0-4fc1-b76e-2702ddfa21f7\5ddbab4c-719e-4053-9239-68fa1a3ec938.zip'
+##[debug]Unwrap 'actions-setup-node-49933ea' to 'D:\a\_actions\actions\setup-node\v4'
+##[debug]Archive 'D:\a\_actions\_temp_61383b56-58e0-4fc1-b76e-2702ddfa21f7\5ddbab4c-719e-4053-9239-68fa1a3ec938.zip' has been unzipped into 'D:\a\_actions\actions\setup-node\v4'.
+Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+##[debug]Copied action archive 'C:\actionarchivecache\actions_upload-artifact\ea165f8d65b6e75b540449e92b4886f43607fa02.zip' to 'D:\a\_actions\_temp_4783fe4e-a5f4-45e4-b64c-f7482c7819a5\a2cb310e-9356-485e-a6df-4fede4aac730.zip'
+##[debug]Unwrap 'actions-upload-artifact-ea165f8' to 'D:\a\_actions\actions\upload-artifact\v4'
+##[debug]Archive 'D:\a\_actions\_temp_4783fe4e-a5f4-45e4-b64c-f7482c7819a5\a2cb310e-9356-485e-a6df-4fede4aac730.zip' has been unzipped into 'D:\a\_actions\actions\upload-artifact\v4'.
+##[debug]action.yml for action: 'D:\a\_actions\actions\checkout\v4\action.yml'.
+##[debug]action.yml for action: 'D:\a\_actions\pnpm\action-setup\v4\action.yml'.
+##[debug]action.yml for action: 'D:\a\_actions\actions\setup-node\v4\action.yml'.
+##[debug]action.yml for action: 'D:\a\_actions\actions\upload-artifact\v4\action.yml'.
+##[debug]Set step '__actions_checkout' display name to: 'Run actions/checkout@v4'
+##[debug]Set step '__pnpm_action-setup' display name to: 'Run pnpm/action-setup@v4'
+##[debug]Set step '__actions_setup-node' display name to: 'Run actions/setup-node@v4'
+##[debug]Set step '__run' display name to: 'Build unsigned executable'
+##[debug]Set step '__actions_upload-artifact' display name to: 'Upload unsigned executable'
+Complete job name: build1234
+##[debug]Collect running processes for tracking orphan processes.
+##[debug]Finishing: Set up job
